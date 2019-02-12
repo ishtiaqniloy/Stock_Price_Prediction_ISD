@@ -1,6 +1,7 @@
 package Server;
 
 import Model.Company;
+import Model.CompanyEnlistment;
 
 import java.io.*;
 import java.net.Socket;
@@ -62,35 +63,35 @@ class ServerThread implements Runnable{
 
 
 
-                        ArrayList<Company> companies = new ArrayList<>();
+                        ArrayList<CompanyEnlistment> companyEnlistments = new ArrayList<CompanyEnlistment>();
 
                         while(rs.next()){
 
-                            System.out.println((j++) + " " + rs.getString(1)+ " " + rs.getString(2)+ " " + rs.getString(3)+ " " + rs.getString(4)+ " " + rs.getString(5)+ " " + rs.getString(6));
+                            while(rs.next()){
+                                System.out.println((j++) + " " + rs.getString(1)+ " " + rs.getString(2)+ " " + rs.getString(3) + " " + rs.getString(4) + " " + rs.getString(5) + " " + rs.getDate(6));
+                                CompanyEnlistment companyEnlistment = new CompanyEnlistment(rs.getString(1), rs.getString(2),rs.getString(3) , (int)Float.parseFloat(rs.getString(5)), rs.getDate(6), (int)Float.parseFloat(rs.getString(4)));
 
-
-                            Company company = new Company(rs.getString(1), rs.getString(2),Integer.parseInt(rs.getString(3)) , Integer.parseInt(rs.getString(4)), Integer.parseInt(rs.getString(5)), rs.getString(6));
-
-                            companies.add(company);
+                                companyEnlistments.add(companyEnlistment);
+                            }
 
                         }
 
-                        System.out.println(companies.size());
-                        printWriter.print(companies.size());
-                        printWriter.flush();
+                        System.out.println(companyEnlistments.size());
+                        objectOutputStream.writeObject(companyEnlistments.size());
+                        objectOutputStream.flush();
 
-                        for (Company company: companies) {
-                            System.out.println("sending: " + company );
-
-                            objectOutputStream.writeObject(company);
-                            objectOutputStream.flush();
-                        }
-
-
-
-                        str = bufferedReader.readLine();
-
-                        System.out.println(str);
+//                        for (CompanyEnlistment companyEnlistment: companyEnlistments) {
+//                            System.out.println("sending: " + companyEnlistment );
+//
+//                            objectOutputStream.writeObject(companyEnlistment);
+//                            objectOutputStream.flush();
+//                        }
+//
+//
+//
+//                        str = bufferedReader.readLine();
+//
+//                        System.out.println(str);
 
 
                     }

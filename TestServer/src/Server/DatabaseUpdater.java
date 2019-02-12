@@ -1,11 +1,14 @@
 package Server;
 
+import Model.CompanyEnlistment;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -40,17 +43,21 @@ public class DatabaseUpdater {
 //            }
 
             ///select code
-//            String query2 = "select * from spp_db.`User Share`;" ;
+//            String query2 = "select * from spp_db.`company enlistment`;" ;
 //            ResultSet rs = stmt.executeQuery(query2) ;
 //            int j = 0;
 //            while(rs.next()){
-//                System.out.println((j++) + " " + rs.getString(1)+ " " + rs.getString(2)+ " " + rs.getString(3));
+//                System.out.println((j++) + " " + rs.getString(1)+ " " + rs.getString(2)+ " " + rs.getString(3) + " " + rs.getString(4) + " " + rs.getString(5) + " " + rs.getDate(6));
+//                CompanyEnlistment companyEnlistment = new CompanyEnlistment(rs.getString(1), rs.getString(2),rs.getString(3) , (int)Float.parseFloat(rs.getString(5)), rs.getDate(6), (int)Float.parseFloat(rs.getString(4)));
+//
+//                System.out.println(companyEnlistment);
 //            }
-//            System.out.println("Done executing");
+
+            System.out.println("Done executing");
 
             ///delete code
-            String query3 = "delete from spp_db.`company` where `Trade_Code` = 'Trade Code';" ;
-            stmt.executeUpdate(query3);
+//            String query3 = "delete from spp_db.`company` where `Trade_Code` = 'Trade Code';" ;
+//            stmt.executeUpdate(query3);
 
             System.out.println("Done executing all queries");
 

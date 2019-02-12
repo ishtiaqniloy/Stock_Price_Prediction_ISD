@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="StockPricePredictor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/run1279823767/StockPricePredictor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

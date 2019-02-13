@@ -1,6 +1,7 @@
 package Controller;
 
 import Model.*;
+import stockpricepredictor.*;
 import java.util.ArrayList;
 
 public class ViewerController {
@@ -13,6 +14,8 @@ public class ViewerController {
     ArrayList<SharePrediction> sharePredList;
 
     public ArrayList<CompanyEnlistment> getEnlistList() {
+        ListGetterClient c=new ListGetterClient();
+        comEnlistList=c.getCEnlistment();
         return comEnlistList;
     }
 

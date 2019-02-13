@@ -1,5 +1,7 @@
 package Server;
 
+import com.mysql.cj.util.TestUtils;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -15,7 +17,7 @@ import java.sql.Statement;
 
                 while(true) {
                     Socket s = serverSocket.accept();        //TCP Connection
-                    ServerThread wt = new ServerThread(s);
+                    ServerThread wt = new ServerThread (s);
                     Thread t = new Thread(wt);
                     t.start();
                 }

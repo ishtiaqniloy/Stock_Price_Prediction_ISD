@@ -27,6 +27,19 @@ public class DatabaseUpdater {
 
             int i = 0;
 
+            String query = "select * from spp_db.`company enlistment` where Enlist_Id = ?;";
+
+            PreparedStatement preparedStmt = connection.prepareStatement(query);
+            preparedStmt.setString(1, "ADM");
+
+
+            ResultSet rs = preparedStmt.executeQuery() ;
+
+            while(rs.next()){
+                System.out.println(rs.getString(1)+ " " + rs.getString(2)+ " " + rs.getString(3) + " " + rs.getString(4) + " " + rs.getString(5) + " " + rs.getDate(6));
+
+            }
+
             ///insert code
 //            while(scanner.hasNextLine()){
 //                strings = scanner.nextLine().split("\t");

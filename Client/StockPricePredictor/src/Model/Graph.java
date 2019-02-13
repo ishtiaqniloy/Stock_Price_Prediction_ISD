@@ -3,18 +3,23 @@ package Model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Objects;
 
 import javafx.util.Pair;
 
 public class Graph implements Serializable {
-    private ArrayList<Pair<Integer,Integer>> points;
+    public ArrayList<Pair<Date,Integer>> points;
 
-    public ArrayList<Pair<Integer, Integer>> getPoints() {
+    public Graph() {
+        this.points = new ArrayList<Pair<Date,Integer>>();
+    }
+
+    public ArrayList<Pair<Date, Integer>> getPoints() {
         return points;
     }
 
-    public void setPoints(ArrayList<Pair<Integer, Integer>> points) {
+    public void setPoints(ArrayList<Pair<Date, Integer>> points) {
         this.points = points;
     }
 

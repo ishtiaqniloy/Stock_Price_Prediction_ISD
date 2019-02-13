@@ -1,27 +1,33 @@
 
 package stockpricepredictor;
+import Controller.PredictionViewController;
 import Model.*;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Client implements Runnable{
+public class ListGetterClient implements Runnable{
+
+
     ObjectInputStream objectInputStream;
     BufferedReader bufferedReader;
     PrintWriter printWriter;
+    ArrayList<CompanyEnlistment> cenlist=new ArrayList<>();
+    public static ArrayList<CompanyEnlistment> maincenlist=new ArrayList<>();
     @Override
     public void run() {
         System.out.println("inside run-----");
         try {
-            Socket socket = new Socket("192.168.43.110",4040);
+           
+            Socket socket = new Socket(StockPricePredictor.serverIP,4040);
             //socket.connect(socket.getRemoteSocketAddress());
             
             bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -39,18 +45,34 @@ public class Client implements Runnable{
             for(int i=0;i<num;i++)
             {
                 CompanyEnlistment companyEnlistment=(CompanyEnlistment)objectInputStream.readObject();
+                cenlist.add(companyEnlistment);
+                maincenlist.add(companyEnlistment);
                 System.out.println(companyEnlistment);
             }
+
+            printWriter.println("List Received");
+            printWriter.flush();
+
             
-            
-            
-            
+            PredictionViewController.setTable(cenlist);
+
+            socket.close();
+
+
         } catch (IOException ex) {
-            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ListGetterClient.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ListGetterClient.class.getName()).log(Level.SEVERE, null, ex);
         }
                 
     }
+    public ArrayList<CompanyEnlistment> getCEnlistment()
+    {
+        return cenlist;
+    }
+//    public ArrayList<CompanyEnlistment> getMainCEnlistment()
+//    {
+//        return maincenlist;
+//    }
     
 }

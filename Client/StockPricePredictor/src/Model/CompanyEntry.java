@@ -6,27 +6,34 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class CompanyEntry implements Serializable {
-    private int enlistID;
+    private String enlistID;
     private String TradeCode;
     private String StCode;
     private String companyName;
     private int LastTradingPrice;
-    private ArrayList<ShareHistory> historyList;
-    private ArrayList<SharePrediction> predictionList;
+    public ArrayList<ShareHistory> historyList;
+    public ArrayList<SharePrediction> predictionList;
+    public Graph shareGraph;
 
-    public CompanyEntry(int enlistID, String TradeCode, String StCode, String companyName, int LastTradingPrice) {
+    public CompanyEntry(String enlistID, String TradeCode, String StCode, String companyName, int LastTradingPrice) {
         this.enlistID = enlistID;
         this.TradeCode = TradeCode;
         this.StCode = StCode;
         this.companyName = companyName;
         this.LastTradingPrice = LastTradingPrice;
+
+        historyList = new ArrayList<ShareHistory>();
+        predictionList = new ArrayList<SharePrediction>();
+
+        shareGraph = new Graph();
+
     }
 
-    public int getEnlistID() {
+    public String getEnlistID() {
         return enlistID;
     }
 
-    public void setEnlistID(int enlistID) {
+    public void setEnlistID(String enlistID) {
         this.enlistID = enlistID;
     }
 

@@ -2,54 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53db454f-5558-4b45-86bf-709676821e3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Controller/PredictionViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/EntryGetterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/MarketGetterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/SearchedCompanyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/StockPricePredictor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/StockPricePredictor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/StockPricePredictor1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/StockPricePredictor2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/jfoenix_8_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/jfoenix_9_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 - Use Case Diagram/stock price predictor.png" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - Use Case Diagram/stock price predictor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/libraries/StockPricePredictor.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/StockPricePredictor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/StockPricePredictor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/StockPricePredictor.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/StockPricePredictor.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/StockPricePredictor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/StockPricePredictor.jnlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/dtjava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/get_java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/get_javafx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/javafx-chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/javafx-loading-100x100.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/javafx-loading-25x25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/upgrade_java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run1279823767/web-files/upgrade_javafx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/StockPricePredictor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/StockPricePredictor.jnlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/dtjava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/get_java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/get_javafx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/javafx-chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/javafx-loading-100x100.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/javafx-loading-25x25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/upgrade_java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/dist/run834648128/web-files/upgrade_javafx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Controller/ViewerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Controller/ViewerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Model/CompanyEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Model/CompanyEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Model/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/Model/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/ListGetterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/StockPricePredictor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/StockPricePredictor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/out/production/StockPricePredictor/Boundary/PredictionView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/out/production/StockPricePredictor/Boundary/PredictionView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/out/production/StockPricePredictor/Boundary/predictionview.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/out/production/StockPricePredictor/Boundary/predictionview.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/StockPricePredictor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/StockPricePredictor/src/stockpricepredictor/StockPricePredictor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/CompanyEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/CompanyEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DatabaseUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DatabaseUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/ServerThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="374">
               <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,14 +67,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Server/ServerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="459">
+              <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1831#1850#0" expanded="true" />
-                <element signature="e#3346#3365#0" expanded="true" />
-                <element signature="e#6601#6616#0" expanded="true" />
-                <element signature="e#7105#7120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,14 +79,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/Model/SharePrediction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1356#1357#0" expanded="true" />
@@ -165,24 +119,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/CompanyEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="459">
               <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-                <element signature="e#1738#1739#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2182#2183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -299,6 +238,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,11 +326,13 @@
       <workItem from="1549973041665" duration="4908000" />
       <workItem from="1549981613229" duration="5846000" />
       <workItem from="1549990231045" duration="43803000" />
+      <workItem from="1550244752371" duration="205000" />
+      <workItem from="1550245114616" duration="1070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54557000" />
+    <option name="totallyTimeSpent" value="55832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -401,7 +343,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16868381" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1732224" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -411,7 +353,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.3764321" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924356" weight="0.15711948" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924356" weight="0.48772505" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
@@ -510,9 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Insert,Delete,Select Queries">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Insert,Delete,Select Queries" />
     <entry file="das://16b0c410-38c1-4ae5-bfc4-0158d62a45c2/schema/spp_db/table/company">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -593,56 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/ShareHistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://16b0c410-38c1-4ae5-bfc4-0158d62a45c2/schema/spp_db/table/stock exchange">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/CompanyEnlistment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/CompanyEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,16 +550,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/Server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -673,7 +573,7 @@
     <entry file="file://$PROJECT_DIR$/src/Model/SharePrediction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1356#1357#0" expanded="true" />
@@ -682,10 +582,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/ShareHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="782">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/CompanyEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/CompanyEnlistment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -694,14 +616,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        <state relative-caret-position="459">
+          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1831#1850#0" expanded="true" />
-            <element signature="e#3346#3365#0" expanded="true" />
-            <element signature="e#6601#6616#0" expanded="true" />
-            <element signature="e#7105#7120#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 
 public class StockPricePredictor extends Application {
 
-    public static final String serverIP = "192.168.43.110";
+    public static final String serverIP = "localhost";
 
     
     @Override

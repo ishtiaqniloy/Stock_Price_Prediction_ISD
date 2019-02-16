@@ -10,7 +10,7 @@
     -fx-my-menu-font-color-highlighted: #FFFFFF; /* Change according to your needs */
 }
 
-.button{
+/*.button{
      -fx-background-color:#ffffff;
      -fx-text-fill: #ffffff;
 

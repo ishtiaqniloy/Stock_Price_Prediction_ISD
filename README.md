@@ -4,4 +4,4 @@ This is an Information System Design project aiming to implement a Stock Price P
 Collaborators: Sadia Tasnim(https://github.com/Sadia1505076), Abdullah Al Ishtiaq (https://github.com/ishtiaqniloy), Shashata Sawmya (https://github.com/pythonLoader).
 
 The system has mainly 4 subsystems. Different diagrams are built on different subsytems.
-Only Server and GUI is developed in implementation phase using java and javafx.
+Only Server and GUI is developed in implementation phase using MySQL and JavaFX.
